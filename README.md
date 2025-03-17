@@ -25,7 +25,7 @@ sample:
 ```json
 {
   "mcpServers": {
-    "obsidian": {
+    "your-tool-name": {
       "command": "/your/node/path/to/node",
       "args": [
         "/your/path/to/this/repository/obsidian-mcp/build/index.js"

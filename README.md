@@ -1,4 +1,4 @@
-# obsidian-mcp-on-claude
+# use-mcp-on-claude
 
 use 
 https://modelcontextprotocol.io/quickstart/server#test-with-commands

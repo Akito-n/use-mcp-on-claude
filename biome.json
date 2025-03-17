@@ -1,0 +1,60 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.7.1/schema.json",
+  "javascript": {
+    "formatter": {
+      "enabled": true,
+      "quoteStyle": "single",
+      "jsxQuoteStyle": "double",
+      "semicolons": "asNeeded",
+      "arrowParentheses": "always",
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineWidth": 100,
+      "quoteProperties": "asNeeded"
+    }
+  },
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 120,
+    "ignore": [".next", "node_modules", "app/components/ui/*"]
+  },
+  "organizeImports": { "enabled": true },
+  "linter": {
+    "enabled": true,
+    "ignore": [".next", "node_modules"],
+    "rules": {
+      "recommended": true,
+
+      "suspicious": {
+        "noExplicitAny": "warn",
+        "noImportAssign": "error",
+        "noShadowRestrictedNames": "error",
+        "noConsoleLog": "warn"
+      },
+      "style": {
+        "noVar": "error",
+        "useConst": "error",
+        "useNamingConvention": "off",
+        "noDefaultExport": "off",
+        "useFilenamingConvention": "off",
+        "useImportType": "off"
+      },
+      "complexity": {
+        "useSimplifiedLogicExpression": "off",
+        "noExcessiveCognitiveComplexity": "off",
+        "noForEach": "warn",
+        "noExtraBooleanCast": "error"
+      },
+      "correctness": {
+        "noUnusedVariables": "warn",
+        "noUnusedImports": "warn"
+      }
+    }
+  },
+  "files": {
+    "ignore": ["biome.json", "./stories/*"]
+  }
+}

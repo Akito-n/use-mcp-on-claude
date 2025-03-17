@@ -47,6 +47,7 @@ Basically, run npm run build, which is the command found in package.json, and th
 After activation, Claude must be restarted.
 If the tool obsidian-xxxx is available as shown in the image, you are ready to go.
 
-![SCR-20250314-jehw](https://github.com/user-attachments/assets/802fc02b-e68f-4cc3-8f55-a018d49ba843)
+![SCR-20250317-phxq](https://github.com/user-attachments/assets/6f11f3d5-2aa3-42ae-8e9f-7a36dfbd6031)
+
 
 

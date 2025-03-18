@@ -2,6 +2,7 @@ build/
 node_modules/
 
 
-
+gcp-oauth.keys.json
+.gdrive-server-credentials.json
 .env
 .DS_Store

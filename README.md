@@ -32,6 +32,7 @@ sample:
       ],
       "env": {
     "OBSIDIAN_VAULT_PATH": "/your/path/to/Obsidian/vault/path/dir"
+     ... 
   }
     }
   },

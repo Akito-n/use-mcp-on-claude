@@ -3,6 +3,7 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import { configureServer as ObsidianConfigureServer } from './obsidianMcpServer'
 import { configureServer as KibelaConfigureServer } from './kibela'
 import { configureServer as BraveSearchConfigureServer } from './braveSearch'
+import { configureServer as SlackConfigureServer } from './slack'
 
 async function main() {
   const server = new McpServer({
@@ -13,6 +14,7 @@ async function main() {
   ObsidianConfigureServer(server)
   KibelaConfigureServer(server)
   BraveSearchConfigureServer(server)
+  SlackConfigureServer(server)
 
   const transport = new StdioServerTransport()
   server.connect(transport)

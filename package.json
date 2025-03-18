@@ -8,6 +8,7 @@
     "start": "npx tsc && node build/index.js",
     "preinspect": "npm run build",
     "inspect": "npx @modelcontextprotocol/inspector node build/index.js",
+    "gdrive-auth": "npx tsc && node build/gdriveAuth.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
@@ -16,9 +17,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  
   "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
     "dotenv": "^16.4.7",
+    "googleapis": "^146.0.0",
     "node-fetch": "^3.3.2",
     "zod": "^3.24.2"
   },

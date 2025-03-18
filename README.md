@@ -31,8 +31,8 @@ sample:
         "/your/path/to/this/repository/obsidian-mcp/build/index.js"
       ],
       "env": {
-    "OBSIDIAN_VAULT_PATH": "/your/path/to/Obsidian/vault/path/dir"
-     ... 
+    "OBSIDIAN_VAULT_PATH": "/your/path/to/Obsidian/vault/path/dir",
+     etc...
   }
     }
   },
@@ -48,7 +48,8 @@ Basically, run npm run build, which is the command found in package.json, and th
 After activation, Claude must be restarted.
 If the tool obsidian-xxxx is available as shown in the image, you are ready to go.
 
-![SCR-20250317-phxq](https://github.com/user-attachments/assets/6f11f3d5-2aa3-42ae-8e9f-7a36dfbd6031)
+
+![SCR-20250318-nump](https://github.com/user-attachments/assets/f84cbf78-dc0c-4d4f-aca8-28eb82e3ae44)
 
 
 
